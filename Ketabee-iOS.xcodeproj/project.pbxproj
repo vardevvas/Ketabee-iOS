@@ -16,6 +16,13 @@
 		41651BD32ACC2BD1004D16A5 /* Ketabee_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BD22ACC2BD1004D16A5 /* Ketabee_iOSTests.swift */; };
 		41651BDD2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BDC2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift */; };
 		41651BDF2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BDE2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift */; };
+		41651BF42ACC311E004D16A5 /* KetabeeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BF32ACC311E004D16A5 /* KetabeeUser.swift */; };
+		41651BF82ACC3156004D16A5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BF72ACC3156004D16A5 /* Book.swift */; };
+		41651BFA2ACC316A004D16A5 /* KetabeeNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BF92ACC316A004D16A5 /* KetabeeNotification.swift */; };
+		41651BFC2ACC31B8004D16A5 /* BookReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BFB2ACC31B8004D16A5 /* BookReview.swift */; };
+		41651BFE2ACC31C6004D16A5 /* BookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BFD2ACC31C6004D16A5 /* BookRequest.swift */; };
+		41651C002ACC3233004D16A5 /* KetabeeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BFF2ACC3233004D16A5 /* KetabeeMessage.swift */; };
+		41651C022ACC32E8004D16A5 /* UserFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C012ACC32E8004D16A5 /* UserFavorites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		41651BD82ACC2BD1004D16A5 /* Ketabee-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ketabee-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41651BDC2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ketabee_iOSUITests.swift; sourceTree = "<group>"; };
 		41651BDE2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ketabee_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41651BF32ACC311E004D16A5 /* KetabeeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetabeeUser.swift; sourceTree = "<group>"; };
+		41651BF72ACC3156004D16A5 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		41651BF92ACC316A004D16A5 /* KetabeeNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetabeeNotification.swift; sourceTree = "<group>"; };
+		41651BFB2ACC31B8004D16A5 /* BookReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReview.swift; sourceTree = "<group>"; };
+		41651BFD2ACC31C6004D16A5 /* BookRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRequest.swift; sourceTree = "<group>"; };
+		41651BFF2ACC3233004D16A5 /* KetabeeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetabeeMessage.swift; sourceTree = "<group>"; };
+		41651C012ACC32E8004D16A5 /* UserFavorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFavorites.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +99,7 @@
 				41651BEE2ACC2D0E004D16A5 /* ViewModels */,
 				41651BED2ACC2D00004D16A5 /* Views */,
 				41651BEC2ACC2CEC004D16A5 /* Models */,
-				41651BBB2ACC2BCF004D16A5 /* Ketabee-iOS */,
+				41651BBB2ACC2BCF004D16A5 /* App */,
 				41651BD12ACC2BD1004D16A5 /* Ketabee-iOSTests */,
 				41651BDB2ACC2BD1004D16A5 /* Ketabee-iOSUITests */,
 				41651BBA2ACC2BCF004D16A5 /* Products */,
@@ -102,7 +116,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41651BBB2ACC2BCF004D16A5 /* Ketabee-iOS */ = {
+		41651BBB2ACC2BCF004D16A5 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				41651BBE2ACC2BCF004D16A5 /* ContentView.swift */,
@@ -111,7 +125,7 @@
 				41651BC72ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld */,
 				41651BC22ACC2BD1004D16A5 /* Preview Content */,
 			);
-			path = "Ketabee-iOS";
+			path = App;
 			sourceTree = "<group>";
 		};
 		41651BC22ACC2BD1004D16A5 /* Preview Content */ = {
@@ -142,6 +156,13 @@
 		41651BEC2ACC2CEC004D16A5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				41651BF32ACC311E004D16A5 /* KetabeeUser.swift */,
+				41651BF72ACC3156004D16A5 /* Book.swift */,
+				41651BF92ACC316A004D16A5 /* KetabeeNotification.swift */,
+				41651BFB2ACC31B8004D16A5 /* BookReview.swift */,
+				41651BFD2ACC31C6004D16A5 /* BookRequest.swift */,
+				41651BFF2ACC3233004D16A5 /* KetabeeMessage.swift */,
+				41651C012ACC32E8004D16A5 /* UserFavorites.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -319,10 +340,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41651C022ACC32E8004D16A5 /* UserFavorites.swift in Sources */,
 				41651BC62ACC2BD1004D16A5 /* Persistence.swift in Sources */,
 				41651BBF2ACC2BCF004D16A5 /* ContentView.swift in Sources */,
+				41651BF82ACC3156004D16A5 /* Book.swift in Sources */,
+				41651C002ACC3233004D16A5 /* KetabeeMessage.swift in Sources */,
 				41651BBD2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift in Sources */,
+				41651BFA2ACC316A004D16A5 /* KetabeeNotification.swift in Sources */,
 				41651BC92ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld in Sources */,
+				41651BF42ACC311E004D16A5 /* KetabeeUser.swift in Sources */,
+				41651BFE2ACC31C6004D16A5 /* BookRequest.swift in Sources */,
+				41651BFC2ACC31B8004D16A5 /* BookReview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +513,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ketabee-iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content/\"";
 				DEVELOPMENT_TEAM = AHQFUJ5K57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -514,7 +542,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ketabee-iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content/\"";
 				DEVELOPMENT_TEAM = AHQFUJ5K57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
