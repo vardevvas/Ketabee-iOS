@@ -22,5 +22,4 @@ struct KetabeeUser: Identifiable {
 enum KetabeeRole: String {
     case user
     case admin
-    // Add more roles as needed
 }
