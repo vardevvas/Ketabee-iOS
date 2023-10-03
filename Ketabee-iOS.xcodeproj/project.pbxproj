@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41651BBD2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BBC2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift */; };
+		41651BBF2ACC2BCF004D16A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BBE2ACC2BCF004D16A5 /* ContentView.swift */; };
+		41651BC12ACC2BD1004D16A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41651BC02ACC2BD1004D16A5 /* Assets.xcassets */; };
+		41651BC42ACC2BD1004D16A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41651BC32ACC2BD1004D16A5 /* Preview Assets.xcassets */; };
+		41651BC62ACC2BD1004D16A5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BC52ACC2BD1004D16A5 /* Persistence.swift */; };
+		41651BC92ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41651BC72ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld */; };
+		41651BD32ACC2BD1004D16A5 /* Ketabee_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BD22ACC2BD1004D16A5 /* Ketabee_iOSTests.swift */; };
+		41651BDD2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BDC2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift */; };
+		41651BDF2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BDE2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41651BCF2ACC2BD1004D16A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41651BB12ACC2BCF004D16A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41651BB82ACC2BCF004D16A5;
+			remoteInfo = "Ketabee-iOS";
+		};
+		41651BD92ACC2BD1004D16A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41651BB12ACC2BCF004D16A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41651BB82ACC2BCF004D16A5;
+			remoteInfo = "Ketabee-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41651BB92ACC2BCF004D16A5 /* Ketabee-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ketabee-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41651BBC2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ketabee_iOSApp.swift; sourceTree = "<group>"; };
+		41651BBE2ACC2BCF004D16A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41651BC02ACC2BD1004D16A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41651BC32ACC2BD1004D16A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41651BC52ACC2BD1004D16A5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		41651BC82ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ketabee_iOS.xcdatamodel; sourceTree = "<group>"; };
+		41651BCE2ACC2BD1004D16A5 /* Ketabee-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ketabee-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41651BD22ACC2BD1004D16A5 /* Ketabee_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ketabee_iOSTests.swift; sourceTree = "<group>"; };
+		41651BD82ACC2BD1004D16A5 /* Ketabee-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ketabee-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41651BDC2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ketabee_iOSUITests.swift; sourceTree = "<group>"; };
+		41651BDE2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ketabee_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41651BB62ACC2BCF004D16A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41651BCB2ACC2BD1004D16A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41651BD52ACC2BD1004D16A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41651BB02ACC2BCF004D16A5 = {
+			isa = PBXGroup;
+			children = (
+				41651BBB2ACC2BCF004D16A5 /* Ketabee-iOS */,
+				41651BD12ACC2BD1004D16A5 /* Ketabee-iOSTests */,
+				41651BDB2ACC2BD1004D16A5 /* Ketabee-iOSUITests */,
+				41651BBA2ACC2BCF004D16A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41651BBA2ACC2BCF004D16A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41651BB92ACC2BCF004D16A5 /* Ketabee-iOS.app */,
+				41651BCE2ACC2BD1004D16A5 /* Ketabee-iOSTests.xctest */,
+				41651BD82ACC2BD1004D16A5 /* Ketabee-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41651BBB2ACC2BCF004D16A5 /* Ketabee-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				41651BBC2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift */,
+				41651BBE2ACC2BCF004D16A5 /* ContentView.swift */,
+				41651BC02ACC2BD1004D16A5 /* Assets.xcassets */,
+				41651BC52ACC2BD1004D16A5 /* Persistence.swift */,
+				41651BC72ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld */,
+				41651BC22ACC2BD1004D16A5 /* Preview Content */,
+			);
+			path = "Ketabee-iOS";
+			sourceTree = "<group>";
+		};
+		41651BC22ACC2BD1004D16A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41651BC32ACC2BD1004D16A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41651BD12ACC2BD1004D16A5 /* Ketabee-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				41651BD22ACC2BD1004D16A5 /* Ketabee_iOSTests.swift */,
+			);
+			path = "Ketabee-iOSTests";
+			sourceTree = "<group>";
+		};
+		41651BDB2ACC2BD1004D16A5 /* Ketabee-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41651BDC2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift */,
+				41651BDE2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Ketabee-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41651BB82ACC2BCF004D16A5 /* Ketabee-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41651BE22ACC2BD1004D16A5 /* Build configuration list for PBXNativeTarget "Ketabee-iOS" */;
+			buildPhases = (
+				41651BB52ACC2BCF004D16A5 /* Sources */,
+				41651BB62ACC2BCF004D16A5 /* Frameworks */,
+				41651BB72ACC2BCF004D16A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ketabee-iOS";
+			productName = "Ketabee-iOS";
+			productReference = 41651BB92ACC2BCF004D16A5 /* Ketabee-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41651BCD2ACC2BD1004D16A5 /* Ketabee-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41651BE52ACC2BD1004D16A5 /* Build configuration list for PBXNativeTarget "Ketabee-iOSTests" */;
+			buildPhases = (
+				41651BCA2ACC2BD1004D16A5 /* Sources */,
+				41651BCB2ACC2BD1004D16A5 /* Frameworks */,
+				41651BCC2ACC2BD1004D16A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41651BD02ACC2BD1004D16A5 /* PBXTargetDependency */,
+			);
+			name = "Ketabee-iOSTests";
+			productName = "Ketabee-iOSTests";
+			productReference = 41651BCE2ACC2BD1004D16A5 /* Ketabee-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41651BD72ACC2BD1004D16A5 /* Ketabee-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41651BE82ACC2BD1004D16A5 /* Build configuration list for PBXNativeTarget "Ketabee-iOSUITests" */;
+			buildPhases = (
+				41651BD42ACC2BD1004D16A5 /* Sources */,
+				41651BD52ACC2BD1004D16A5 /* Frameworks */,
+				41651BD62ACC2BD1004D16A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41651BDA2ACC2BD1004D16A5 /* PBXTargetDependency */,
+			);
+			name = "Ketabee-iOSUITests";
+			productName = "Ketabee-iOSUITests";
+			productReference = 41651BD82ACC2BD1004D16A5 /* Ketabee-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41651BB12ACC2BCF004D16A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					41651BB82ACC2BCF004D16A5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					41651BCD2ACC2BD1004D16A5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 41651BB82ACC2BCF004D16A5;
+					};
+					41651BD72ACC2BD1004D16A5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 41651BB82ACC2BCF004D16A5;
+					};
+				};
+			};
+			buildConfigurationList = 41651BB42ACC2BCF004D16A5 /* Build configuration list for PBXProject "Ketabee-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41651BB02ACC2BCF004D16A5;
+			productRefGroup = 41651BBA2ACC2BCF004D16A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41651BB82ACC2BCF004D16A5 /* Ketabee-iOS */,
+				41651BCD2ACC2BD1004D16A5 /* Ketabee-iOSTests */,
+				41651BD72ACC2BD1004D16A5 /* Ketabee-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41651BB72ACC2BCF004D16A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41651BC42ACC2BD1004D16A5 /* Preview Assets.xcassets in Resources */,
+				41651BC12ACC2BD1004D16A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41651BCC2ACC2BD1004D16A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41651BD62ACC2BD1004D16A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41651BB52ACC2BCF004D16A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41651BC62ACC2BD1004D16A5 /* Persistence.swift in Sources */,
+				41651BBF2ACC2BCF004D16A5 /* ContentView.swift in Sources */,
+				41651BBD2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift in Sources */,
+				41651BC92ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41651BCA2ACC2BD1004D16A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41651BD32ACC2BD1004D16A5 /* Ketabee_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41651BD42ACC2BD1004D16A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41651BDF2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift in Sources */,
+				41651BDD2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41651BD02ACC2BD1004D16A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41651BB82ACC2BCF004D16A5 /* Ketabee-iOS */;
+			targetProxy = 41651BCF2ACC2BD1004D16A5 /* PBXContainerItemProxy */;
+		};
+		41651BDA2ACC2BD1004D16A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41651BB82ACC2BCF004D16A5 /* Ketabee-iOS */;
+			targetProxy = 41651BD92ACC2BD1004D16A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41651BE02ACC2BD1004D16A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41651BE12ACC2BD1004D16A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41651BE32ACC2BD1004D16A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ketabee-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AHQFUJ5K57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vardevvas.Ketabee-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41651BE42ACC2BD1004D16A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ketabee-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AHQFUJ5K57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vardevvas.Ketabee-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41651BE62ACC2BD1004D16A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AHQFUJ5K57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vardevvas.Ketabee-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ketabee-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ketabee-iOS";
+			};
+			name = Debug;
+		};
+		41651BE72ACC2BD1004D16A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AHQFUJ5K57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vardevvas.Ketabee-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ketabee-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ketabee-iOS";
+			};
+			name = Release;
+		};
+		41651BE92ACC2BD1004D16A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AHQFUJ5K57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vardevvas.Ketabee-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ketabee-iOS";
+			};
+			name = Debug;
+		};
+		41651BEA2ACC2BD1004D16A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AHQFUJ5K57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vardevvas.Ketabee-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ketabee-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41651BB42ACC2BCF004D16A5 /* Build configuration list for PBXProject "Ketabee-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41651BE02ACC2BD1004D16A5 /* Debug */,
+				41651BE12ACC2BD1004D16A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41651BE22ACC2BD1004D16A5 /* Build configuration list for PBXNativeTarget "Ketabee-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41651BE32ACC2BD1004D16A5 /* Debug */,
+				41651BE42ACC2BD1004D16A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41651BE52ACC2BD1004D16A5 /* Build configuration list for PBXNativeTarget "Ketabee-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41651BE62ACC2BD1004D16A5 /* Debug */,
+				41651BE72ACC2BD1004D16A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41651BE82ACC2BD1004D16A5 /* Build configuration list for PBXNativeTarget "Ketabee-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41651BE92ACC2BD1004D16A5 /* Debug */,
+				41651BEA2ACC2BD1004D16A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41651BC72ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41651BC82ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodel */,
+			);
+			currentVersion = 41651BC82ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodel */;
+			path = Ketabee_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41651BB12ACC2BCF004D16A5 /* Project object */;
+}
