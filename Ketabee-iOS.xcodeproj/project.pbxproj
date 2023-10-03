@@ -78,6 +78,13 @@
 		41651BB02ACC2BCF004D16A5 = {
 			isa = PBXGroup;
 			children = (
+				41651BF22ACC2D66004D16A5 /* Supporting Files */,
+				41651BF12ACC2D41004D16A5 /* Resources */,
+				41651BF02ACC2D2A004D16A5 /* Utilities */,
+				41651BEF2ACC2D1D004D16A5 /* Services */,
+				41651BEE2ACC2D0E004D16A5 /* ViewModels */,
+				41651BED2ACC2D00004D16A5 /* Views */,
+				41651BEC2ACC2CEC004D16A5 /* Models */,
 				41651BBB2ACC2BCF004D16A5 /* Ketabee-iOS */,
 				41651BD12ACC2BD1004D16A5 /* Ketabee-iOSTests */,
 				41651BDB2ACC2BD1004D16A5 /* Ketabee-iOSUITests */,
@@ -98,9 +105,8 @@
 		41651BBB2ACC2BCF004D16A5 /* Ketabee-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				41651BBC2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift */,
 				41651BBE2ACC2BCF004D16A5 /* ContentView.swift */,
-				41651BC02ACC2BD1004D16A5 /* Assets.xcassets */,
+				41651BBC2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift */,
 				41651BC52ACC2BD1004D16A5 /* Persistence.swift */,
 				41651BC72ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld */,
 				41651BC22ACC2BD1004D16A5 /* Preview Content */,
@@ -131,6 +137,56 @@
 				41651BDE2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift */,
 			);
 			path = "Ketabee-iOSUITests";
+			sourceTree = "<group>";
+		};
+		41651BEC2ACC2CEC004D16A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41651BED2ACC2D00004D16A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41651BEE2ACC2D0E004D16A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		41651BEF2ACC2D1D004D16A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		41651BF02ACC2D2A004D16A5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		41651BF12ACC2D41004D16A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41651BC02ACC2BD1004D16A5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		41651BF22ACC2D66004D16A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
