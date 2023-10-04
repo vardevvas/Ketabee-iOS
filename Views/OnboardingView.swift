@@ -17,9 +17,11 @@ struct OnboardingView: View {
                 OnboardingPageView(onboardingPage: page
                 )
             }
+            
         }
         .tabViewStyle(PageTabViewStyle())
-        .indexViewStyle(PageIndexViewStyle())
+        .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+        StartButtonView()
     }
     
     struct OnboardingPageView: View {
@@ -36,14 +38,16 @@ struct OnboardingView: View {
                     .font(.title)
                     .bold()
                     .padding(.top, 20)
+                    .foregroundColor(Color("KetabeeSecondary"))
                 
                 Text(onboardingPage.description)
                     .font(.body)
                     .multilineTextAlignment(.center)
                     .padding()
                 
-                StartButtonView()
+                
             }
+            
             .padding()
         }
     }
@@ -65,13 +69,13 @@ struct OnboardingView: View {
               Image(systemName: "arrow.right.circle")
                 .imageScale(.large)
             }
+              
             .padding(.horizontal, 16)
             .padding(.vertical, 10)
             .background(
-              Capsule().strokeBorder(Color.white, lineWidth: 1.25)
+              Capsule().strokeBorder(Color("AccentColor"), lineWidth: 1.25)
             )
           } //: BUTTON
-          .accentColor(Color.primary)
         }
     }
 

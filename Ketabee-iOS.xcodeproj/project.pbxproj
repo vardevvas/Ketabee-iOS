@@ -22,8 +22,10 @@
 		41651BFC2ACC31B8004D16A5 /* BookReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BFB2ACC31B8004D16A5 /* BookReview.swift */; };
 		41651BFE2ACC31C6004D16A5 /* BookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BFD2ACC31C6004D16A5 /* BookRequest.swift */; };
 		41651C002ACC3233004D16A5 /* KetabeeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BFF2ACC3233004D16A5 /* KetabeeMessage.swift */; };
-		41651C042ACD0A8C004D16A5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C032ACD0A8C004D16A5 /* OnboardingView.swift */; };
 		41651C092ACD1B40004D16A5 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C082ACD1B40004D16A5 /* OnboardingViewModel.swift */; };
+		41651C0B2ACD7237004D16A5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C0A2ACD7237004D16A5 /* LoginView.swift */; };
+		41651C112ACD73E0004D16A5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C102ACD73E0004D16A5 /* OnboardingView.swift */; };
+		41651C1A2ACD74CD004D16A5 /* OnboardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C192ACD74CD004D16A5 /* OnboardingUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +64,10 @@
 		41651BFB2ACC31B8004D16A5 /* BookReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReview.swift; sourceTree = "<group>"; };
 		41651BFD2ACC31C6004D16A5 /* BookRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRequest.swift; sourceTree = "<group>"; };
 		41651BFF2ACC3233004D16A5 /* KetabeeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetabeeMessage.swift; sourceTree = "<group>"; };
-		41651C032ACD0A8C004D16A5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		41651C082ACD1B40004D16A5 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		41651C0A2ACD7237004D16A5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		41651C102ACD73E0004D16A5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		41651C192ACD74CD004D16A5 /* OnboardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 			children = (
 				41651BDC2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift */,
 				41651BDE2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift */,
+				41651C192ACD74CD004D16A5 /* OnboardingUITests.swift */,
 			);
 			path = "Ketabee-iOSUITests";
 			sourceTree = "<group>";
@@ -172,7 +177,8 @@
 		41651BED2ACC2D00004D16A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				41651C032ACD0A8C004D16A5 /* OnboardingView.swift */,
+				41651C0A2ACD7237004D16A5 /* LoginView.swift */,
+				41651C102ACD73E0004D16A5 /* OnboardingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -361,8 +367,9 @@
 				41651C092ACD1B40004D16A5 /* OnboardingViewModel.swift in Sources */,
 				41651BF42ACC311E004D16A5 /* KetabeeUser.swift in Sources */,
 				41651BFE2ACC31C6004D16A5 /* BookRequest.swift in Sources */,
+				41651C0B2ACD7237004D16A5 /* LoginView.swift in Sources */,
+				41651C112ACD73E0004D16A5 /* OnboardingView.swift in Sources */,
 				41651BFC2ACC31B8004D16A5 /* BookReview.swift in Sources */,
-				41651C042ACD0A8C004D16A5 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41651BDF2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift in Sources */,
+				41651C1A2ACD74CD004D16A5 /* OnboardingUITests.swift in Sources */,
 				41651BDD2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
