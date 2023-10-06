@@ -38,7 +38,7 @@ struct OnboardingView: View {
                     .font(.title)
                     .bold()
                     .padding(.top, 20)
-                    .foregroundColor(Color("KetabeeSecondary"))
+                    .foregroundColor(Color.ketabeeSecondary)
                 
                 Text(onboardingPage.description)
                     .font(.body)

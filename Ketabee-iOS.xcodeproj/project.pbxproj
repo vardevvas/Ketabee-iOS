@@ -26,6 +26,14 @@
 		41651C0B2ACD7237004D16A5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C0A2ACD7237004D16A5 /* LoginView.swift */; };
 		41651C112ACD73E0004D16A5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C102ACD73E0004D16A5 /* OnboardingView.swift */; };
 		41651C1A2ACD74CD004D16A5 /* OnboardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C192ACD74CD004D16A5 /* OnboardingUITests.swift */; };
+		41651C1C2AD02603004D16A5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C1B2AD02603004D16A5 /* LoginViewModel.swift */; };
+		41651C1D2AD02603004D16A5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C1B2AD02603004D16A5 /* LoginViewModel.swift */; };
+		41651C1F2AD0714F004D16A5 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C1E2AD0714F004D16A5 /* AuthenticationService.swift */; };
+		41651C202AD0714F004D16A5 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C1E2AD0714F004D16A5 /* AuthenticationService.swift */; };
+		41651C222AD0719B004D16A5 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C212AD0719B004D16A5 /* LoginService.swift */; };
+		41651C232AD0719B004D16A5 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C212AD0719B004D16A5 /* LoginService.swift */; };
+		41651C252AD07362004D16A5 /* GoogleSignInManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C242AD07362004D16A5 /* GoogleSignInManager.swift */; };
+		41651C262AD07362004D16A5 /* GoogleSignInManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651C242AD07362004D16A5 /* GoogleSignInManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +76,10 @@
 		41651C0A2ACD7237004D16A5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		41651C102ACD73E0004D16A5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		41651C192ACD74CD004D16A5 /* OnboardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUITests.swift; sourceTree = "<group>"; };
+		41651C1B2AD02603004D16A5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		41651C1E2AD0714F004D16A5 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		41651C212AD0719B004D16A5 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		41651C242AD07362004D16A5 /* GoogleSignInManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				41651C082ACD1B40004D16A5 /* OnboardingViewModel.swift */,
+				41651C1B2AD02603004D16A5 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -194,6 +207,9 @@
 		41651BEF2ACC2D1D004D16A5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				41651C1E2AD0714F004D16A5 /* AuthenticationService.swift */,
+				41651C212AD0719B004D16A5 /* LoginService.swift */,
+				41651C242AD07362004D16A5 /* GoogleSignInManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -363,8 +379,12 @@
 				41651C002ACC3233004D16A5 /* KetabeeMessage.swift in Sources */,
 				41651BBD2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift in Sources */,
 				41651BFA2ACC316A004D16A5 /* KetabeeNotification.swift in Sources */,
+				41651C1C2AD02603004D16A5 /* LoginViewModel.swift in Sources */,
+				41651C222AD0719B004D16A5 /* LoginService.swift in Sources */,
 				41651BC92ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld in Sources */,
 				41651C092ACD1B40004D16A5 /* OnboardingViewModel.swift in Sources */,
+				41651C1F2AD0714F004D16A5 /* AuthenticationService.swift in Sources */,
+				41651C252AD07362004D16A5 /* GoogleSignInManager.swift in Sources */,
 				41651BF42ACC311E004D16A5 /* KetabeeUser.swift in Sources */,
 				41651BFE2ACC31C6004D16A5 /* BookRequest.swift in Sources */,
 				41651C0B2ACD7237004D16A5 /* LoginView.swift in Sources */,
@@ -385,9 +405,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41651C1D2AD02603004D16A5 /* LoginViewModel.swift in Sources */,
+				41651C232AD0719B004D16A5 /* LoginService.swift in Sources */,
 				41651BDF2ACC2BD1004D16A5 /* Ketabee_iOSUITestsLaunchTests.swift in Sources */,
+				41651C262AD07362004D16A5 /* GoogleSignInManager.swift in Sources */,
 				41651C1A2ACD74CD004D16A5 /* OnboardingUITests.swift in Sources */,
 				41651BDD2ACC2BD1004D16A5 /* Ketabee_iOSUITests.swift in Sources */,
+				41651C202AD0714F004D16A5 /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
