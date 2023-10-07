@@ -17,35 +17,6 @@ final class OnboardingUITests: XCTestCase {
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
-
-//    func testOnboardingSwipe() throws {
-//        // UI test code
-//        let app = XCUIApplication()
-//        app.launch()
-//        
-//        // Assuming you have UI elements for the onboarding view
-//        let page1 = app.staticTexts["Welcome to Ketabee"]
-//        let page2 = app.staticTexts["Get Started"]
-//        let page3 = app.staticTexts["Explore"]
-//        
-//        // Swipe right to navigate through onboarding pages
-//        let scrollView = app.scrollViews.firstMatch
-//        scrollView.swipeRight()
-//        XCTAssert(page1.exists, "Page 1 should still be visible")
-//        
-//        scrollView.swipeRight()
-//        XCTAssert(page2.exists, "Page 2 should still be visible")
-//        
-//        scrollView.swipeRight()
-//        XCTAssert(page3.exists, "Page 3 should still be visible")
-//        
-//        // Swipe left to navigate back
-//        scrollView.swipeLeft()
-//        XCTAssert(page2.exists, "Page 2 should be visible again")
-//        
-//        scrollView.swipeLeft()
-//        XCTAssert(page1.exists, "Page 1 should be visible again")
-//    }
     
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
