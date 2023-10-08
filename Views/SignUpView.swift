@@ -80,6 +80,6 @@ struct SignUpView: View {
 
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
-        SignUpView(viewModel: viewModel) // Initialize with an empty SignUpViewModel
+        SignUpView(viewModel: SignUpViewModel()) // Initialize with an empty SignUpViewModel
     }
 }

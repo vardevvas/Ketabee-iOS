@@ -9,7 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var isFilterPopupVisible = false
-
+    @State private var selectedTab = "home"
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -19,6 +20,32 @@ struct HomeView: View {
                 .padding()
 
                 GridItemView() // Grid view to display items
+                Spacer()
+                TabView(selection: $selectedTab) {
+                            Text("Home Content")
+                                .tabItem {
+                                    Image(systemName: "house.fill")
+                                    Text("Home")
+                                }
+                                .tag("home")
+
+                            Text("Search Content")
+                                .tabItem {
+                                    Image(systemName: "magnifyingglass")
+                                    Text("Requests")
+                                }
+                                .tag("search")
+
+                            Text("Profile Content")
+                                .tabItem {
+                                    Image(systemName: "person.fill")
+                                    Text("Profile")
+                                }
+                                .tag("profile")
+                        }
+                        .onAppear {
+                            selectedTab = "home" // Select the "Home" tab by default
+                        }
             }
             .navigationBarTitle("Home", displayMode: .inline)
             .navigationBarItems(trailing:
@@ -28,29 +55,10 @@ struct HomeView: View {
                     Image(systemName: "line.3.horizontal.decrease.circle")
                 }
             )
+            
         }
         .sheet(isPresented: $isFilterPopupVisible) {
             FilterPopupView(isVisible: $isFilterPopupVisible)
-        }
-        Spacer()
-        TabView {
-            HomeView()
-                .tabItem {
-                    Image(systemName: "house.fill")
-                    Text("Home")
-                }
-            
-            RequestsView()
-                .tabItem {
-                    Image(systemName: "bell.fill")
-                    Text("Requests")
-                }
-            
-            ProfileView()
-                .tabItem {
-                    Image(systemName: "person.fill")
-                    Text("Profile")
-                }
         }
     }
     

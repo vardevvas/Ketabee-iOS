@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     @ObservedObject var viewModel: LoginViewModel
+    @State private var isActive: Bool = false
     
     var body: some View {
         NavigationView {
@@ -46,19 +47,20 @@ struct LoginView: View {
                         .stroke(Color.gray, lineWidth: 1)
                 )
                 .padding([.horizontal], 30)
-                
+                NavigationLink("Forgot Password?", destination: SignUpView(viewModel: SignUpViewModel()))
+                    .foregroundColor(.accentColor)
+                    .frame(alignment: .leading)
+
                 Button(action: {
-                    viewModel.login() // Trigger the login logic
                 }) {
-                    Text("Login")
-                        .font(.headline)
-                        .padding()
-                        .background(Color.accentColor)
-                        .foregroundColor(Color.ketabeeSecondary)
-                        .cornerRadius(10)
-                        .padding()
-                        .opacity(viewModel.isLoggingIn ? 0.5 : 1.0) // Disable button during login
+                    NavigationLink("Login", destination: HomeView())
+                            .buttonStyle(BorderedButtonStyle())
+                            .foregroundColor(.ketabeeSecondary)
+                            .frame(width: 100,height: 50)
+                            .background(.accent)
+                            .cornerRadius(5)
                 }
+
                 Text("Or Continue with")
                 
                 Button(action: {
@@ -81,7 +83,7 @@ struct LoginView: View {
                 .cornerRadius(10)
                 HStack{
                     Text("Don’t have an account?")
-                    NavigationLink("sign up!", destination: SignUpView())
+                    NavigationLink("sign up!", destination: SignUpView(viewModel: SignUpViewModel()))
                         .foregroundColor(.accentColor)
                 }
                 .padding()
@@ -96,6 +98,7 @@ struct LoginView: View {
             }
             .padding()
         }
+        .navigationTitle("Login")
     }
 }
 

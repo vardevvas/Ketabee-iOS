@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411E000B2AD29C3C00A44FE4 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E000A2AD29C3C00A44FE4 /* OTPViewModel.swift */; };
+		411E000D2AD29C8400A44FE4 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E000C2AD29C8400A44FE4 /* OTPView.swift */; };
+		411E000F2AD2AED700A44FE4 /* RestPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E000E2AD2AED700A44FE4 /* RestPasswordView.swift */; };
+		411E00112AD2AF0100A44FE4 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E00102AD2AF0100A44FE4 /* ResetPasswordViewModel.swift */; };
+		411E00142AD2C15D00A44FE4 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E00132AD2C15D00A44FE4 /* NewPasswordView.swift */; };
 		41651BBD2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BBC2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift */; };
 		41651BBF2ACC2BCF004D16A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41651BBE2ACC2BCF004D16A5 /* ContentView.swift */; };
 		41651BC12ACC2BD1004D16A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41651BC02ACC2BD1004D16A5 /* Assets.xcassets */; };
@@ -59,6 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		411E000A2AD29C3C00A44FE4 /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
+		411E000C2AD29C8400A44FE4 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		411E000E2AD2AED700A44FE4 /* RestPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPasswordView.swift; sourceTree = "<group>"; };
+		411E00102AD2AF0100A44FE4 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		411E00132AD2C15D00A44FE4 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
 		41651BB92ACC2BCF004D16A5 /* Ketabee-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ketabee-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41651BBC2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ketabee_iOSApp.swift; sourceTree = "<group>"; };
 		41651BBE2ACC2BCF004D16A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -205,6 +215,9 @@
 				41651C2A2AD1627C004D16A5 /* RequestsView.swift */,
 				41651C2C2AD16289004D16A5 /* ProfileView.swift */,
 				41651C2E2AD16CE0004D16A5 /* SignUpView.swift */,
+				411E000C2AD29C8400A44FE4 /* OTPView.swift */,
+				411E000E2AD2AED700A44FE4 /* RestPasswordView.swift */,
+				411E00132AD2C15D00A44FE4 /* NewPasswordView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +228,8 @@
 				41651C082ACD1B40004D16A5 /* OnboardingViewModel.swift */,
 				41651C1B2AD02603004D16A5 /* LoginViewModel.swift */,
 				41651C322AD1794F004D16A5 /* SignUpViewModel.swift */,
+				411E000A2AD29C3C00A44FE4 /* OTPViewModel.swift */,
+				411E00102AD2AF0100A44FE4 /* ResetPasswordViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -388,20 +403,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411E00142AD2C15D00A44FE4 /* NewPasswordView.swift in Sources */,
 				41651BC62ACC2BD1004D16A5 /* Persistence.swift in Sources */,
 				41651BBF2ACC2BCF004D16A5 /* ContentView.swift in Sources */,
+				411E000F2AD2AED700A44FE4 /* RestPasswordView.swift in Sources */,
 				41651BF82ACC3156004D16A5 /* Book.swift in Sources */,
 				41651C002ACC3233004D16A5 /* KetabeeMessage.swift in Sources */,
 				41651BBD2ACC2BCF004D16A5 /* Ketabee_iOSApp.swift in Sources */,
 				41651BFA2ACC316A004D16A5 /* KetabeeNotification.swift in Sources */,
 				41651C1C2AD02603004D16A5 /* LoginViewModel.swift in Sources */,
 				41651C222AD0719B004D16A5 /* LoginService.swift in Sources */,
+				411E00112AD2AF0100A44FE4 /* ResetPasswordViewModel.swift in Sources */,
 				41651BC92ACC2BD1004D16A5 /* Ketabee_iOS.xcdatamodeld in Sources */,
 				41651C282AD16168004D16A5 /* HomeView.swift in Sources */,
 				41651C2F2AD16CE0004D16A5 /* SignUpView.swift in Sources */,
 				41651C092ACD1B40004D16A5 /* OnboardingViewModel.swift in Sources */,
 				41651C1F2AD0714F004D16A5 /* AuthenticationService.swift in Sources */,
 				41651C2D2AD16289004D16A5 /* ProfileView.swift in Sources */,
+				411E000D2AD29C8400A44FE4 /* OTPView.swift in Sources */,
+				411E000B2AD29C3C00A44FE4 /* OTPViewModel.swift in Sources */,
 				41651C2B2AD1627C004D16A5 /* RequestsView.swift in Sources */,
 				41651C252AD07362004D16A5 /* GoogleSignInManager.swift in Sources */,
 				41651BF42ACC311E004D16A5 /* KetabeeUser.swift in Sources */,
